@@ -11,7 +11,7 @@
 3. Run terraform plan -var-file=fixtures.us-east-2.tfvars -out=path
 4. Comment out line 51-54 on .terraform/modules/subnets/outputs.tf due to deprecation
 5. Run terraform apply "path"
-6. Run terraform destroy -var-file=fixtures.us-east-2.tfvars
+6. Run terraform destroy -var-file=fixtures.us-east-2.tfvars to destroy the infrastructure after creation. 
 
 # Testing the script
 
