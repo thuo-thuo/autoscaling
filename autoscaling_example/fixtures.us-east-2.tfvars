@@ -14,12 +14,12 @@ instance_type = "t2.small"
 
 health_check_type = "EC2"
 
-wait_for_capacity_timeout = "10m"
+wait_for_capacity_timeout = "30m"
 
 max_size = 3
 
-min_size = 2
+min_size = 1
 
 cpu_utilization_high_threshold_percent = 80
 
-cpu_utilization_low_threshold_percent = 20
+cpu_utilization_low_threshold_percent = 30
