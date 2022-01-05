@@ -14,5 +14,8 @@
 6. Run terraform destroy -var-file=fixtures.us-east-2.tfvars to destroy the infrastructure after creation. 
 
 # Testing the script
+1. Navigate into the test directory
+2. Run the Makefile by running Make
+3. Tests should run. 
 
-* Terraform provider is: https://github.com/cloudposse/terraform-aws-ec2-autoscale-group
+* Terraform provider reference is: https://github.com/cloudposse/terraform-aws-ec2-autoscale-group
