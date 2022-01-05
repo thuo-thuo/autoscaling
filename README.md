@@ -9,6 +9,8 @@
 1. Navigate into the examples/complete directory and run terraform init. 
 2. Replace the variables in the fixtures.us-east-2.tfvars file with the values as instructed.
 3. Run terraform plan -var-file=fixtures.us-east-2.tfvars -out=path
+4. Comment out line 51-54 on .terraform/modules/subnets/outputs.tf due to deprecation
+5. Run terraform apply "path"
 
 # Testing the script
 
